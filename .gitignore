@@ -1,0 +1,255 @@
+# ============================================================
+# Flutter / Dart
+# ============================================================
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+flutter_export_environment.sh
+
+# Flutter generated files
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Generated Dart files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.gr.dart
+
+# Uncomment if generated files should be committed instead
+# depending on your project's code-generation policy.
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+secrets.json
+credentials.json
+
+
+# ============================================================
+# Android
+# ============================================================
+
+android/.gradle/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/wrapper/gradle-wrapper.jar
+
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Signing credentials
+android/key.properties
+android/*.jks
+android/*.keystore
+android/app/*.jks
+android/app/*.keystore
+
+# Android Studio
+android/.idea/
+android/*.iml
+
+
+# ============================================================
+# iOS
+# ============================================================
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/xcuserdata/
+
+ios/**/DerivedData/
+ios/**/.DS_Store
+
+# CocoaPods
+ios/Podfile.lock
+# NOTE:
+# You can commit Podfile.lock for application projects if desired.
+
+
+# ============================================================
+# macOS
+# ============================================================
+
+macos/Pods/
+macos/.symlinks/
+macos/Flutter/ephemeral/
+
+macos/Runner.xcworkspace/xcuserdata/
+macos/Runner.xcodeproj/xcuserdata/
+
+macos/**/DerivedData/
+
+
+# ============================================================
+# Windows
+# ============================================================
+
+windows/flutter/ephemeral/
+
+
+# ============================================================
+# Linux
+# ============================================================
+
+linux/flutter/ephemeral/
+
+
+# ============================================================
+# Web
+# ============================================================
+
+web/.dart_tool/
+
+
+# ============================================================
+# IntelliJ IDEA / Android Studio
+# ============================================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+
+# If you want to share VS Code settings instead:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+# !.vscode/launch.json
+# !.vscode/tasks.json
+
+
+# ============================================================
+# macOS
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ============================================================
+# Windows OS
+# ============================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+
+# ============================================================
+# Linux OS
+# ============================================================
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+
+# ============================================================
+# Logs / Temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.cache
+
+logs/
+tmp/
+temp/
+
+
+# ============================================================
+# Coverage / Tests
+# ============================================================
+
+coverage/
+test-results/
+
+
+# ============================================================
+# Firebase
+# ============================================================
+
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Usually these SHOULD be committed:
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+#
+# Ignore them only if your project treats Firebase config
+# as secret/environment-specific.
+
+
+# ============================================================
+# Fastlane
+# ============================================================
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/
+**/fastlane/test_output/
+
+
+# ============================================================
+# Crash / debug dumps
+# ============================================================
+
+*.dmp
+*.stackdump
+
+
+# ============================================================
+# Misc
+# ============================================================
+
+*.orig
+*.rej
